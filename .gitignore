@@ -1,0 +1,30 @@
+# Ignore backup and temporary files
+*.asv
+*.m~
+*.mlx~
+
+# Ignore cache and build files
+*.slxc
+*.mex*
+
+# Ignore Simulink autosave and derived files
+*.autosave
+*.slxc
+*.slx.autosave
+*.mdl.autosave
+*.bak
+
+# Ignore MATLAB project files you may not want to share
+*.prj
+*.mlproj
+*.mldatx
+*.mat
+*.fig
+
+# Ignore any output or logs
+*.log
+*.out
+
+# Ignore hidden/system folders
+.DS_Store
+Thumbs.db
